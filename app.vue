@@ -1,6 +1,6 @@
 <template>
+    <NuxtLayout>
   <div>
-
     <section class="bg-gray-900 py-12">
     <h1 class="text-white text-center text-4xl font-bold">Cara memasak Indomie</h1>
 </section>  
@@ -79,5 +79,5 @@
       <footer class="bg-gray-900 py-5 text-white text-center">
   <p>Copyright 2023 © Zulfikar Romansyah</p>
 </footer>
-
+</NuxtLayout>
 </template>
