@@ -1,7 +1,7 @@
 <template>
-    <div class="header mt-10">
-      <h1 class="md:text-3xl mx-8 text-2xl hover">
+<Navbar />
+<div class="flex justify-center">
         <slot />
-      </h1>
-    </div>
+      </div>
+ 
   </template>
