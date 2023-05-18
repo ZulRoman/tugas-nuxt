@@ -1,9 +1,4 @@
 <template>
-<<<<<<< HEAD
-
-=======
-    <NuxtLayout>
->>>>>>> 11a48b8d2db21b78f3a5f4e2b386c81ddc9e5edb
         <div class="container mt-20 mb-44">
   <div>
     <section class="bg-gray-900 py-12">
@@ -17,11 +12,7 @@
 
 
 <div class="flex gap-2 justify-center text-lg">
-<<<<<<< HEAD
-<div class="flex">
-=======
 <div class="relative overflow-x-auto flex">
->>>>>>> 11a48b8d2db21b78f3a5f4e2b386c81ddc9e5edb
     <table class="center">
         <thead class="bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
             <tr>
@@ -46,11 +37,7 @@
 </div>
 <br>
 
-<<<<<<< HEAD
-<div class="">
-=======
 <div class="relative overflow-x-auto">
->>>>>>> 11a48b8d2db21b78f3a5f4e2b386c81ddc9e5edb
     <table class="center">
         <thead class="bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
             <tr>
@@ -97,23 +84,12 @@
 <card :image="'https://www.indomie.com/uploads/product/indomie-mi-goreng-rendang-flavour_thumb_170333176.png'" :title="'Indomie Goreng Rendang'" />
 <card :image="'https://www.indomie.com/uploads/product/indomie-mi-goreng-cabe-ijo-flavour_thumb_145129182.png'" :title="'Indomie Goreng Cabe Ijo'" />
 </div>
-<<<<<<< HEAD
-</div>
-
-=======
 <Footer/>
 </div>
 
-</NuxtLayout>
 
->>>>>>> 11a48b8d2db21b78f3a5f4e2b386c81ddc9e5edb
 </template>
 
 <script setup>
 const route = useRoute()
-<<<<<<< HEAD
-
-console.log(route.params.id)
-=======
->>>>>>> 11a48b8d2db21b78f3a5f4e2b386c81ddc9e5edb
 </script>
