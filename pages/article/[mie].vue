@@ -84,7 +84,6 @@
 <card :image="'https://www.indomie.com/uploads/product/indomie-mi-goreng-rendang-flavour_thumb_170333176.png'" :title="'Indomie Goreng Rendang'" />
 <card :image="'https://www.indomie.com/uploads/product/indomie-mi-goreng-cabe-ijo-flavour_thumb_145129182.png'" :title="'Indomie Goreng Cabe Ijo'" />
 </div>
-<Footer/>
 </div>
 
 
