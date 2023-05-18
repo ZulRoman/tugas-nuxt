@@ -12,7 +12,7 @@
 
 
 <div class="flex gap-2 justify-center text-lg">
-<div class="relative overflow-x-auto flex">
+<div class="relative flex">
     <table class="center">
         <thead class="bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
             <tr>
@@ -37,7 +37,7 @@
 </div>
 <br>
 
-<div class="relative overflow-x-auto">
+<div class="relative">
     <table class="center">
         <thead class="bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
             <tr>
