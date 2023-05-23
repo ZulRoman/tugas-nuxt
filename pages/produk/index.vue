@@ -24,7 +24,22 @@
                                     <div class="flex gap-2 w-full font-bold">
                                         <p class="">Rating : {{ item.rating }}/10</p>
                                     </div>
-                                    <p class="font-bold">Terjual : {{ item.sold }}</p>
+                                    <p class="font-bold mb-4">Terjual : {{ item.sold }}</p>   
+                                    <button class="bg-blue-500 hover:bg-blue-700 text-white text-xs font-bold py-2 px-4 mb-4">
+                                        Beli
+                                    </button>                                 
+                                    <h4 class="font-bold text-xl mb-4">Komentar</h4>
+                                    <div class="">
+                                        <div class="flex items-center gap-2">
+                                            <img src="https://static.vecteezy.com/system/resources/thumbnails/009/734/564/small/default-avatar-profile-icon-of-social-media-user-vector.jpg"
+                                                class="w-[40px]" alt="">
+                                            <div class="">
+                                                <h4 class="font-bold text-xl">{{ item.comments.name }}</h4>
+                                                <p class="text-sm">{{item.comments.date }}</p>
+                                            </div>
+                                        </div>
+                                        <p class="p-2">{{item.comments.comment }}</p>
+                                    </div>
                                 </div>
                             </div>
                     </div>
