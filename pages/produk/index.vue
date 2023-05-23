@@ -19,8 +19,7 @@
                                     <p class="font-bold text-xl" v-if="item.discount != 0">Rp. {{
                                         item.price
                                     }}</p>
-                                    <p class="text-base mt-2" v-if="item.diskon === 0"></p>
-                                    <p class="font-bold text-base mt-2" v-else>Diskon: {{ item.discount }}</p>
+                                    <p class="font-bold text-base mt-2">Diskon: {{ item.discount }}</p>
                                     <div class="flex gap-2 w-full font-bold">
                                         <p class="">Rating : {{ item.rating }}/10</p>
                                     </div>
