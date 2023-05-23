@@ -1,0 +1,50 @@
+[
+      {
+        "id": 1,
+        "name": "Indomie Goreng",
+        "description": "Indomie Goreng rasa original",
+        "qty": 1,
+        "price": 3000,
+        "discount": "15%",
+        "image": "https://www.indomie.com/uploads/product/indomie-mi-goreng-special_thumb_094906798.png",
+          "comments": {
+            "name": "@usera",
+            "comment": "enak",
+            "date": "19-05-2023"
+          },
+          "rating": 9,
+          "sold": 10
+      },
+      {
+        "id": 2,
+        "name": "Indomie Goreng Rendang",
+        "description": "Indomie Goreng rasa rendang",
+        "qty": 1,
+        "price": 3500,
+        "discount": "10%",
+        "image": "https://www.indomie.com/uploads/product/indomie-mi-goreng-rendang-flavour_thumb_170333176.png",
+          "comments": {
+            "name": "@userb",
+            "comment": "enak coy",
+            "date": "19-05-2023"
+          },
+          "rating": 8,
+          "sold": 15
+      },
+      {
+        "id": 3,
+        "name": "Indomie Goreng Cabe Ijo",
+        "description": "Indomie Goreng rasa Cabe Ijo",
+        "qty": 1,
+        "price": 4000,
+        "discount": "5%",
+        "image": "https://www.indomie.com/uploads/product/indomie-mi-goreng-cabe-ijo-flavour_thumb_145129182.png",
+          "comments": {
+            "name": "@userc",
+            "comment": "enak bgt",
+            "date": "19-05-2023"
+          },
+          "rating": 8.5,
+          "sold": 20
+        }
+    ]

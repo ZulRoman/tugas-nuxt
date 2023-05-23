@@ -3,7 +3,7 @@
       <img class="" :src= image >
       <div class="px-6 py-4">
         <div class="font-bold text-xl mb-2 text-white">{{ title }}</div>
-        <p class="text-white text-base">
+        <p class="text-white text-base text-left">
           Lihat produk selengkapnya disini
         </p>
   <slot/>

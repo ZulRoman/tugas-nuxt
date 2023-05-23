@@ -4,6 +4,7 @@
     <section class="bg-gray-900 py-12">
     <h1 class="text-white text-center text-4xl font-bold">Cara memasak Indomie</h1>
 </section>  
+    </div>
 
 <div class="flex justify-center">
 <img src="https://www.indomie.com/uploads/product/category_dry-based-noodles_133948614.png" width="300px" height="200px">
@@ -11,9 +12,9 @@
 <br>
 
 
-<div class="flex gap-2 justify-center text-lg">
-<div class="flex">
-    <table class="center">
+<div class="flex flex-col justify-center text-lg">
+<div class="flex flex-col gap-2">
+    <table>
         <thead class="bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
             <tr>
                 <th scope="col" class="text-white text-center text-xl font-bold">
@@ -34,11 +35,7 @@
             </tr>
         </tbody>
     </table>
-</div>
-<br>
-
-<div class="">
-    <table class="center">
+    <table>
         <thead class="bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
             <tr>
                 <th scope="col" class="text-white text-center text-xl font-bold">
@@ -63,9 +60,10 @@
             </tr>
         </tbody>
     </table>
-      </div>
     </div>
-</div>
+      </div>
+
+
 
     
 <h2 class="text-2xl font-bold mb-4 text-center">Untuk selengkapnya bisa lihat video dibawah ini</h2>
@@ -79,7 +77,7 @@
 
 <h2 class="text-2xl font-bold mb-4 text-center">Produk Indomie</h2>
 
-<div class="flex justify-center">
+<div class="flex justify-center gap-1">
 <card :image="'https://www.indomie.com/uploads/product/indomie-mi-goreng-special_thumb_094906798.png'" :title="'Indomie Goreng'" />
 <card :image="'https://www.indomie.com/uploads/product/indomie-mi-goreng-rendang-flavour_thumb_170333176.png'" :title="'Indomie Goreng Rendang'" />
 <card :image="'https://www.indomie.com/uploads/product/indomie-mi-goreng-cabe-ijo-flavour_thumb_145129182.png'" :title="'Indomie Goreng Cabe Ijo'" />
@@ -91,4 +89,5 @@
 
 <script setup>
 const route = useRoute()
+console.log(route.params.id)
 </script>

@@ -22,7 +22,11 @@
                                 </li>
                                 <li class="group">
                                     <nuxt-link to="/article"
-                                        class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">Articles</nuxt-link>
+                                        class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">Articles</nuxt-link>
+                                </li>
+                                <li class="group">
+                                    <nuxt-link to="/produk"
+                                        class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">Produk</nuxt-link>
                                 </li>
                             </ul>
     </div>
