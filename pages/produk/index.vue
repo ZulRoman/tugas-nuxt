@@ -16,9 +16,7 @@
                                     <div>
                                         <h4 class="text-l flex items-center">{{ item.description }}</h4>
                                     </div>
-                                    <p class="font-bold text-xl" v-if="item.discount != 0">Rp. {{
-                                        item.price
-                                    }}</p>
+                                    <p class="font-bold text-xl">Rp. {{ item.price }}</p>
                                     <p class="font-bold text-base mt-2">Diskon: {{ item.discount }}</p>
                                     <div class="flex gap-2 w-full font-bold">
                                         <p class="">Rating : {{ item.rating }}/10</p>
